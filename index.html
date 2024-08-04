@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Neethu Anna Boby</div>
+    <div>
+         <ul class="nav-links">
+             <li><a href="#about">About </a></li>
+             <li><a href="#experience">Skills</a></li>
+             <li><a href="#projects">Projects</a></li>
+             <li><a href="#blog">Blog</a></li>
+             <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Neethu Anna Boby</div>
+    <div class="hamburger-menu">
+        <div class="hamburger-icon"onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#about"onclick="toggleMenu()">About </a></li>
+            <li><a href="#experiencetp0"onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects"onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#blog"onclick="toggleMenu()">Blog</a></li>
+           <li><a href="#contact"onclick="toggleMenu()">Contact</a></li>  
+        </div>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="./assets/profile-pic.png" alt="John Doe profile picture" />
+    </div>
+    <div class="section__text">
+      <p class="section_text_p1">Hello, I'm</p>
+      <h1 class="title">Neethu Anna Boby</h1>
+      <p class="section_text_p2">MCA  student focusing on entrepreneurship and data analytics</p><br>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">Download CV</button>
+        <button class="btn btn-color-1" onclick="location.href='#contact'">Contact Info</button>
+      </div>
+      <div id="socials-container">
+        <img src="./assets/linkedin.png" alt=" Linkedin profile" class="icon" onclick="location.href='https://www.linkedin.com/in/neethu-anna-boby/'">
+        <img src="./assets/github.png" alt=" Github profile" class="icon" onclick="location.href='https://github.com/NeethuAnna2003'"/>
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <center><p class="section_text_p1">Get to know more</p></center>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <!-- <img src="./assets/about-pic.png" alt="Profile picture" class="about-pic"/> -->
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./assets/experience.png" alt="Experience icon" class="icon"/>
+            <h3>Courses</h3>
+            <p><br />MS Office Excel Specialist</p>
+          </div>
+          <div class="details-container">
+            <img src="./assets/education.png" alt="Education icon" class="icon"/>
+            <h3>Education</h3>
+            <p>B.Com </br> St. Berchmans College<br />MCA</p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>I’m Neethu Anna Boby, a B.Com graduate now pursuing an MCA with a focus on entrepreneurship and data analysis. I’m passionate about using data to drive business decisions and aim to merge my interests in technology and business to start a venture that leverages data for impactful solutions.</p><br>
+          <h3>Academic Background</h3><p>I graduated with a B.Com from St. Berchmans College, where I built a solid foundation in business. I also completed courses as an MS Office Excel Specialist and in web designing. These skills complement my current MCA studies, where I focus on entrepreneurship and data analysis.</p><br>
+          <h3>Skills</h3><p>I’m skilled in Python, SQL, and MS Excel,. These skills support my work in data analysis and business solutions.</p>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='/#experience'"/>
+  </section>
+  <section id="experience">
+    <center><p class="section_text_p1">Explore My</p></center>
+    <h1 class="title">Skills</h1>
+    <div class="experience-details-container">
+      <!-- <div class="about-containers"> -->
+        <div class="details-container">
+          <h2 class="experience-sub-title">Technical Skill</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>HTML</h3>
+                <P>Experienced</P>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>CSS</h3>
+                <P>Experienced</P>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                 <h3>PYTHON</h3>
+                 <P>Intermediate</P> 
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                 <h3>Prompt engineering</h3>
+                 <P>Basic</P>
+              </div>
+            </article>
+            <!-- <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                 <h3>TypeScript</h3> 
+                 <P>Basic</P> 
+              </div>
+            </article> -->
+            <!-- <article>
+              <img src="./assets//checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                 <h3>Material UI</h3>
+                 <P>Intermediate</P> 
+              </div>
+            </article> -->
+          </div>
+        </div>
+        <!-- <div class="details-container">
+          <h2 class="experience-sub-title">Frontend Development</h2>
+          <div class="article-container"> -->
+            <!-- <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>PostgreSQL</h3>
+                <P>Basic</P> 
+              </div>
+            </article>  -->
+            <article>
+              <!-- <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Node JS</h3>
+                <P>Intermediate</P> -->
+              </div>
+            </article>
+            <!-- <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Express JS</h3>
+                <P>Intermediate</P>
+              </div>
+            </article> -->
+            <!-- <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Git</h3>
+                <P>Intermediate</P> -->
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='/#projects'"/>
+  </section>
+  <section id="projects">
+    <center><P class="section_text_p1">Browse My Recent</P></center>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./assets/project-1.png" alt="Project 1" class="project-img" />
+        </div>
+        <h2 class="experience-sub-title project-title">Compartive study on financial perfomance</h2>
+        <div class="btn-container">
+          <button class="btn btn-color-2 project-btn"onclick="location.href='https://github.com/NeethuAnna2003/COMPARATIVE-STUDY-ON-THE-FINANCIAL-PERFORMANCE-OF-INFOSYS-LIMITED-AND-TCS-LIMITED-.git'">
+            
+            Github
+          </button>
+          <!-- <button class="btn btn-color-2 project-btn"onclick="location.href='https://github.com'">
+            
+            Live Demo
+          </button> -->
+        </div>
+      </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./assets/project-2.png" alt="Project 1" class="project-img" />
+        </div>
+        <h2 class="experience-sub-title project-title">Project Two</h2>
+        <div class="btn-container">
+          <button class="btn btn-color-2 project-btn"onclick="location.href='https://github.com'">
+            
+            Github
+          </button>
+          <!-- <button class="btn btn-color-2 project-btn"onclick="location.href='https://github.com'">
+            
+            Live Demo
+          </button> -->
+        </div>
+      </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./assets/project-3.png" alt="Project 1" class="project-img" />
+        </div>
+        <h2 class="experience-sub-title project-title">Project Three</h2>
+        <div class="btn-container">
+          <button class="btn btn-color-2 project-btn"onclick="location.href='https://github.com'">
+            
+            Github
+          </button>
+          <!-- <button class="btn btn-color-2 project-btn"onclick="location.href='https://github.com'">
+            
+            Live Demo
+          </button> -->
+        </div>
+      </div>
+    </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='/#projects'"/>
+  </section>
+  <section id="blog">
+    <!-- <p class="section_text_p1">Get to know more</p> -->
+    <h1 class="title">Blog</h1>
+    <!-- <div class="section-container"> -->
+      <div class="about-details-container">
+        <!-- <div class="about-containers"> -->
+          <!-- <div class="details-container">
+            <img src="./assets/experience.png" alt="Experience icon" class="icon">
+            <h3>Extra ourses</h3>
+            <p>Web Development Course | Udemy</p>
+          </div>
+          <div class="details-container">
+            <img src="./assets/education.png" alt="Education icon" class="icon">
+            <h3>Education</h3>
+            <p>BCA<br>Kristu Jyothi College Of Management And Technology</p>
+          </div> -->
+        <!-- </div>
+        <div class="text-container"> -->
+          <!-- <p>I'm Neethu Anna Boby, a B.Com graduate currently pursuing an MCA with a focus on entrepreneurship and business analysis. My passion for technology and its impact on user experiences drives my work in creating intuitive and engaging digital solutions.</p><br> -->
+          <p><strong>Technical Articles</strong>: Leveraging my recent certification as a Microsoft Office Excel Specialist, I’m excited to share insights and practical tips through a series of articles. These will cover essential Excel skills, from mastering basic functions and advanced formulas to creating dynamic dashboards and automating tasks with macros. Each piece will offer clear, step-by-step guides, real-world examples, and personal reflections on the course, aiming to help others enhance their data management and analysis capabilities. Whether you're starting with Excel or looking to deepen your expertise, these articles will provide valuable tools and knowledge to elevate your proficiency.</p><br>
+          <p><strong>Personal Reflections</strong>:Reflecting on my journey as a student in the tech field, I've encountered a blend of excitement, challenges, and significant growth. Initially, the sheer volume of new concepts and technologies was overwhelming, but each challenge became a stepping stone towards deeper understanding. Navigating complex projects and troubleshooting issues honed my problem-solving skills and taught me the value of persistence and adaptability. Collaborating with peers and mentors not only expanded my technical skills but also fostered essential soft skills like teamwork and communication. This journey has not only broadened my technical expertise but also transformed my approach to learning, instilling a resilience and curiosity that drive my continued growth and passion in the tech world.</p>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#contact'">
+  </section>
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./assets/email.png" alt="Email icon" class="icon contact-icon" />
+        <p><a href="mailto:neethuannaboby@gmail.com">neethuannaboby@gmail.com</a></p>
+
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/linkedin.png" alt="Linkedin icon" class="icon contact-icon" />
+        <p><a href="http://www.linkedin.com/in/neethu-anna-boby">Linkedin</a></p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About </a></li>
+          <li><a href="#experience">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+     </ul>
+      </div>
+    </nav>
+    <center><p>copyright &#169; 2024 Neethu Anna Boby. All rights reserved</p></center>
+  </footer>
+ <script src="script.js"></script>   
+</body> 
+</html>
